@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pin Clone</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+Your App Goes Here
+<div ng-app="app" ng-controller="AppCtrl as app">
+    <button ng-click="app.addPin()">Add Pin</button>
+    <div class="pin" ng-repeat="pin in app.pins">
+        <img ng-src="{{ pin.image }}" alt=""/>
+        <input type="text" ng-model="pin.title"/>
+        <button ng-click="app.updatePin(pin)">Update</button>
+        <button ng-click="app.deletePin(pin)">Delete</button>
+    </div>
+</div>
+
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1065878659">
+    <data-source source="LOCAL" name="Data Source" uuid="3e59c69c-c3f8-4102-92e9-fe4584b9ec91">
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/pin.db</jdbc-url>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/xerial-sqlite-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
